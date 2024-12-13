@@ -1,6 +1,3 @@
-print('\n#1')
-
-
 def read_last(lines, file):
     abstract_file = open('article.txt', 'r', encoding='utf-8')
     for n in range(lines):
@@ -29,7 +26,7 @@ def print_docs(directory):
 print_docs('C:/Users/User/Downloads/2')
 
 
-print('\n#3')
+
 from functools import reduce
 
 
@@ -44,7 +41,7 @@ file = open('article.txt', 'r', encoding='utf-8')
 print(longest_words(file))
 
 
-print('\n#4')
+
 name = input('Введите имя файла: ') + '.txt'
 file = open(name, "w")
 s = input('Введите строку (для завершения нажмите ENTER): ') + '\n'
